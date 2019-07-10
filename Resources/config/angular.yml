@@ -1,0 +1,11 @@
+assets:
+  js_prod:
+  - bundles/bibsdbcitationportrait/assets/build/bibsdbcitationportrait.js
+modules:
+  toolsModule:
+    files:
+      - bundles/bibsdbcitationportrait/apps/toolsModule/citation-portrait-bodytext-editor.js
+      - bundles/bibsdbcitationportrait/apps/toolsModule/citation-portrait-overlay-editor.js
+      - bundles/bibsdbcitationportrait/apps/toolsModule/citation-portrait-quote-editor.js
+      - bundles/bibsdbcitationportrait/apps/toolsModule/citation-portrait-title-editor.js
+apps:
