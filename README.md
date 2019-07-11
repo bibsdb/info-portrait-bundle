@@ -1,6 +1,6 @@
-# bibsdb/citation-portrait
+# bibsdb/info-portrait
 
-Supplies a slide template for playing citation-portrait videos. This bundle uses CitationPortrait's js player: https://github.com/citation-portrait/player.js/
+Supplies a slide template for playing info-portrait videos. This bundle uses InfoPortrait's js player: https://github.com/info-portrait/player.js/
 
 ## Installation
 
@@ -8,9 +8,9 @@ Add the git repository to "repositories" in `composer.json`.
 
 <pre>
 "repositories": {
-    "bibsdb/citation-portrait-bundle": {
+    "bibsdb/info-portrait-bundle": {
       "type": "vcs",
-      "url": "https://github.com/bibsdb/citation-portrait-bundle"
+      "url": "https://github.com/bibsdb/info-portrait-bundle"
     },
     ...
 }
@@ -19,13 +19,13 @@ Add the git repository to "repositories" in `composer.json`.
 Require the bundle with composer.
 
 <pre>
-composer require bibsdb/citation-portrait-bundle
+composer require bibsdb/info-portrait-bundle
 </pre>
 
-Enable the bundle in `AppKernel.php`, by adding BibsdbCitationPortraitBundle to $bundles.
+Enable the bundle in `AppKernel.php`, by adding BibsdbInfoPortraitBundle to $bundles.
 
 <pre>
-new Bibsdb\CitationPortraitBundle\BibsdbCitationPortraitBundle()
+new Bibsdb\InfoPortraitBundle\BibsdbInfoPortraitBundle()
 </pre>
 
 Run bibsdb:core:templates:load command to load the template in the installation.
@@ -39,5 +39,5 @@ Enable the template in the administration.
 ## Ads and controls
 
 To avoid ads and video controls, the shared video has to come from a user
-that has disabled the options at citation-portrait.com. To do it yourself, you need to have
-at least a PLUS account (https://citation-portrait.com/plus).
+that has disabled the options at info-portrait.com. To do it yourself, you need to have
+at least a PLUS account (https://info-portrait.com/plus).

@@ -28,9 +28,9 @@ var banner = [
 
 // @TODO: Discover this structure automatically
 var templates = {
-  'citation-portrait': {
+  'info-portrait': {
     'slides': [
-      'citation-portrait'
+      'info-portrait'
     ]
   }
 };
@@ -89,7 +89,7 @@ var adminJsPath = (function () {
   });
 
   return jsFiles.map(function (file) {
-    return 'Resources/public/' + file.split('bundles/bibsdbcitationportrait/')[1];
+    return 'Resources/public/' + file.split('bundles/bibsdbinfoportrait/')[1];
   });
 }());
 
@@ -107,7 +107,7 @@ gulp.task('jshint', 'Runs JSHint on js', function () {
  */
 gulp.task('js', 'Build all custom js files into one minified js file.', function () {
      return gulp.src(adminJsPath)
-    .pipe(concat('bibsdbcitationportrait.js'))
+    .pipe(concat('bibsdbinfoportrait.js'))
     .pipe(ngAnnotate())
     .pipe(uglify())
     .pipe(rename({extname: ".min.js"}))

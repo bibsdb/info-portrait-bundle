@@ -1,3 +1,3 @@
-# bibsdb/citation-portrait-bundle
+# bibsdb/info-portrait-bundle
 
 

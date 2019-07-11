@@ -1,6 +1,6 @@
 <?php
 
-namespace Bibsdb\CitationPortraitBundle\DependencyInjection;
+namespace Bibsdb\InfoPortraitBundle\DependencyInjection;
 
 use Os2Display\CoreBundle\DependencyInjection\Os2DisplayBaseExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -10,7 +10,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class BibsdbCitationPortraitExtension extends Os2DisplayBaseExtension 
+class BibsdbInfoPortraitExtension extends Os2DisplayBaseExtension 
 {
     /**
      * {@inheritdoc}

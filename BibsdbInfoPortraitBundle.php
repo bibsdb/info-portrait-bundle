@@ -1,9 +1,9 @@
 <?php
 
-namespace Bibsdb\CitationPortraitBundle;
+namespace Bibsdb\InfoPortraitBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class BibsdbCitationPortraitBundle extends Bundle
+class BibsdbInfoPortraitBundle extends Bundle
 {
 }

@@ -1,6 +1,6 @@
 {
-  "name": "citation-portrait-bundle",
-  "description": "Citation Portrait Template",
+  "name": "info-portrait-bundle",
+  "description": "Info Portrait Template",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
